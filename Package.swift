@@ -11,8 +11,8 @@ let package = Package(
         .library(name: "RxSkeleton", targets: ["RxSkeleton"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.0")),
-        .package(url: "https://github.com/Juanpe/SkeletonView.git", from: "1.7.0")
+        .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.2")),
+        .package(url: "https://github.com/Juanpe/SkeletonView.git", .upToNextMajor(from: "1.25.1"))
     ],
     targets: [
         .target(name: "RxSkeleton", dependencies: ["RxDataSources", "SkeletonView"])
